@@ -1,0 +1,21 @@
+*
+
+!*/
+
+!alacritty/alacritty.toml
+!nvim/
+nvim/*
+!nvim/.stylua.toml
+!nvim/init.lua
+!nvim/lua/**
+!skhd/*
+skhd/tmux-*
+!yabai/*
+!tmux/*
+tmux/plugins
+
+# Single files
+!.zshrc
+!.gitignore
+!mac-dev-setup.sh
+!README.md

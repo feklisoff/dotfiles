@@ -1,0 +1,17 @@
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[scrolling]
+history = 5000
+
+[window]
+decorations = "none"
+
+[window.padding]
+x = 6
+y = 6
+
+[font.normal]
+family = "Hack Nerd Font Mono"
