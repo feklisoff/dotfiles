@@ -3,16 +3,20 @@
 !*/
 
 !alacritty/alacritty.toml
-!nvim/
-nvim/*
-!nvim/.stylua.toml
-!nvim/init.lua
-!nvim/lua/**
-!skhd/*
-skhd/tmux-*
-!yabai/*
-!tmux/*
-tmux/plugins
+!wezterm/*
+
+!/nvim/init.lua
+!/nvim/lua/
+!/nvim/lua/plugins/*.lua
+!/nvim/lua/plugins/lsp/
+!/nvim/lua/plugins/lsp/*.lua
+!/nvim/lua/config/
+!/nvim/lua/config/*.lua
+
+/tmux/plugins/
+!/tmux/
+!/tmux/tmux.conf
+!/tmux/tmux.reset.conf
 
 # Single files
 !.zshrc
