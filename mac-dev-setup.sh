@@ -33,6 +33,7 @@ sudo chown -R root:staff /usr/local/share/zsh
 
 # Terminal emulator
 brew install --cask alacritty
+brew install --cask wezterm
 
 # Nerd fonts
 brew tap homebrew/cask-fonts
